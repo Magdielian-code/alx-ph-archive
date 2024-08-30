@@ -3,10 +3,9 @@ import Home from "@/app/page";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
-  faMicrophone,
+  faAward,
   faPen,
-  faDiagramProject,
-  faAddressBook,
+  faNewspaper,
 } from "@fortawesome/free-solid-svg-icons";
 
 import Container from "@/components/Container";
@@ -17,6 +16,7 @@ import {
   Button,
   Flex,
   Link,
+  
   Spacer,
   Icon,
   Text,
@@ -24,13 +24,14 @@ import {
 
 import React from "react";
 import { useScrollDirection } from "@/hooks/useScrollDirection";
+import { faProductHunt } from "@fortawesome/free-brands-svg-icons";
 
 const navMenuLinks = [
   { name: "Home", href: "/", icon: faHouse },
-  { name: "Talks", href: "/talks", icon: faMicrophone },
+  { name: "Hall of Famer", href: "/talks", icon: faAward },
   { name: "Blog", href: "/blog", icon: faPen },
-  { name: "Projects", href: "/projects", icon: faDiagramProject },
-  { name: "Consulting", href: "/consulting", icon: faAddressBook },
+  { name: "Product", href: "/projects", icon: faProductHunt},
+  { name: "News", href: "/consulting", icon: faNewspaper },
 ];
 
 export const Nav: React.FC = () => {
@@ -40,26 +41,27 @@ export const Nav: React.FC = () => {
     <Box
     w={"100%"}
     zIndex={2}
-    bg={"#1D1817"}
+    bg={"#fff"}
     position={{ base: "fixed", md: "relative" }}
     bottom={{ base: scrollDirection === "down" ? "-100%" : "0", md: "auto" }}
     left={"0"}
     borderTop={{ base: "0.5px solid #E2E8F0", md: "none" }}
     transition="bottom 0.3s"
   >
-      <Container>
+     
         <Box>
           <Flex
             align={"center"}
             my={"6"}
             display={{ base: "none", md: "flex" }}
           >
-            <Avatar
+            {/* <Avatar
               name="Ozioma Agaecheta"
               src="/assets/me2.jpeg"
               size={"sm"}
               style={{ border: "2px solid #E7BC91" }}
-            />
+            /> */}
+            <Text> ALX-PH-ARCHIVE</Text>
 
             <Spacer />
 
@@ -117,7 +119,6 @@ export const Nav: React.FC = () => {
             ))}
           </Flex>
         </Box>
-      </Container>
     </Box>
   );
 };

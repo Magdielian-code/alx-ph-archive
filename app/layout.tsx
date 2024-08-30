@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body  className="relative bg-[#1D1817]" color="white">
+      <body  className="relative bg-[#fff]" color="black">
         <Providers>
           <Nav/>
           <Hero/>
