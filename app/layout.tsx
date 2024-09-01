@@ -20,15 +20,29 @@ export default function RootLayout({
 
 
   return (
-    <html lang="en">
-      <body className="relative bg-[#fff]">
-      <ColorModeScript initialColorMode={theme.config.initialColorMode} />
-        <Providers>
-          <Nav />
-          <main>{children}</main>
-          <Footer />
-        </Providers>
-      </body>
-    </html>
-  );
+      <html 
+        lang="en">
+        <head>
+          <link
+            rel="stylesheet"
+            type="text/css"
+            charSet="UTF-8"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+          />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+          />
+        </head>
+        <body className="relative bg-[#fff]">
+        <ColorModeScript initialColorMode={theme.config.initialColorMode} />
+          <Providers>
+            <Nav />
+            <main>{children}</main>
+            <Footer />
+          </Providers>
+        </body>
+      </html>
+    );
 }
