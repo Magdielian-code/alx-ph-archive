@@ -1,17 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import { Nav } from "components/Home/Nav";
-import Hero from "@/components/Home/Hero";
-import About from "@/components/Home/About";
- 
-import React from "react";
-import Skillset from "@/components/Home/Skillset";
+import Footer from "@/components/Footer";
+import { ColorModeScript, extendTheme } from "@chakra-ui/react";
+
+const theme = extendTheme(); 
 
 export const metadata: Metadata = {
-  title: "Ozioma Agaecheta",
-  description: "Personal website",
+  title: "ALX PH HOME",
+  description: "An Archive dedicated to the Heroes of the ALX PH Community",
 };
 
 export default function RootLayout({
@@ -19,18 +17,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+
   return (
     <html lang="en">
-      <body  className="relative bg-[#fff]" color="black">
+      <body className="relative bg-[#fff]">
+      <ColorModeScript initialColorMode={theme.config.initialColorMode} />
         <Providers>
-          <Nav/>
-          <Hero/>
-          <About/>
-          <Skillset/>
+          <Nav />
+          <main>{children}</main>
+          <Footer />
         </Providers>
       </body>
     </html>
   );
 }
-
-

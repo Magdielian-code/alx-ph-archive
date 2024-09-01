@@ -23,7 +23,7 @@ export const Socials = () => {
                     <Flex>
                         <FontAwesomeIcon 
                             icon={link.icon} 
-                            size='md'
+                            size={'2xl'}
                             style={{ color: '#E7BC91',}}
                         />
                         <Text ml={2} color={'white'} fontWeight={'light'} fontSize={'sm'}>{link.name}</Text>

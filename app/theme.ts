@@ -9,8 +9,8 @@ const config: ThemeConfig = {
 
 const globals = {
   body: {
-    bg: "#1D1817",
-    color: "white",
+    bg: "white",
+    color: "black",
   },
 };
 
@@ -20,17 +20,16 @@ const fonts = {
 };
 
 const colors = {
-  brown: {
-    50: "#FFEDD8",
-    100: "#F3D5B5",
-    200: "#E7BC91",
-    300: "#D4A276",
-    400: "#BC8A5F",
-    500: "#A47148", // Default
-    600: "#8B5E34",
-    700: "#6F4518",
-    800: "#603808",
-    900: "#583101",
+  blue: {
+    100: "#03045E",
+    200: "#023E8A",
+    300: "#0077B6",
+    400: "#0096C7",
+    500: "#00B4D8", // Default
+    600: "#48CAE4",
+    700: "#90E0EF",
+    800: "#ADE8F4",
+    900: "#CAF0F8",
   },
   secondary: {
     50: "#FEEBC8",
@@ -62,14 +61,15 @@ const Button = {
       bg: "brown.900", // Default background color
       color: "white",
       _hover: {
-        bg: "brown.600", // Hover variant
+        bg: "blue.200", // Hover variant
+        color: "white",
       },
     },
     outline: {
       // borderColor: 'brown.500',
       color: "black",
       _hover: {
-        bg: "brown.800",
+        bg: "blue.300",
         color: "white",
       },
     },
@@ -93,9 +93,9 @@ const theme = extendTheme({
             borderBottom: "none",
             _selected: {
               color: "black",
-              bg: "brown.200",
+              bg: "blue.200",
               borderBottom: "none",
-              borderColor: "brown.200",
+              borderColor: "blue.200",
               fontWeight: "bold",
             },
             

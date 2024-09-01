@@ -10,13 +10,12 @@ interface ContainerProps {
 const Container = ({ children, id = "", className = "" }: ContainerProps) => {
   return (
     <Box  
-      color={'white'}
+      color={'black'}
       mx="auto"
       p={3}
       className={className}
       id={id}
       maxW={{ base: "2xl", md: "4xl", lg: "5xl", xl: "9xl" }}
-    
     >
       {children}
     </Box>
