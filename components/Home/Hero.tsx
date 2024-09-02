@@ -1,7 +1,7 @@
 "use client";
 
 import { Avatar, Box, Flex, Heading, Text, VStack } from "@chakra-ui/react";
-import NavContainer from "@/components/NavContainer";
+import NavContainer from "@/components/Utils/NavContainer";
 
 const Hero = () => {
   return (

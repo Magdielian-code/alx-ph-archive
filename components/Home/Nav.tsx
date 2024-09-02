@@ -8,7 +8,7 @@ import {
   faNewspaper,
 } from "@fortawesome/free-solid-svg-icons";
 
-import NavContainer from "@/components/NavContainer";
+import NavContainer from "../Utils/NavContainer";
 
 import {
   Avatar,
@@ -24,7 +24,7 @@ import {
 import React from "react";
 import { useScrollDirection } from "@/hooks/useScrollDirection";
 import { faProductHunt } from "@fortawesome/free-brands-svg-icons";
-import { ColorModeToggle } from "@/components/ColorModeToggle";
+import { ColorModeToggle } from "../Utils/ColorModeToggle";
 
 
 const navMenuLinks = [
