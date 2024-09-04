@@ -34,9 +34,14 @@ const iconMap = {
 const Famer: React.FC = () => {
   return (
     <NavContainer>
-      <Box as="div"  h={'150px'} bg={'blue.200'}>
-        <Text  color={'white'} my={"40px"} textAlign={"center"} fontWeight={"bold"}>
-          <Text as={"p"}>
+      <Box as="div" h={"150px"} bg={"blue.200"}>
+        <Text
+          as={"div"}
+          color={"white"}
+          textAlign={"center"}
+          fontWeight={"bold"}
+        >
+          <Text as={"p"} mt={"20px"}>
             “We have so many inspirational, talented and skilful Individuals who
             make valuable impact to the growth of our community.”
           </Text>
@@ -47,7 +52,13 @@ const Famer: React.FC = () => {
         </Text>
       </Box>
 
-      <SimpleGrid position={'relative'} p={"10px"} spacing={10} mt={"40px"} minChildWidth={"300px"}>
+      <SimpleGrid
+        position={"relative"}
+        p={"10px"}
+        spacing={10}
+        mt={"40px"}
+        minChildWidth={"300px"}
+      >
         {FamerData.map((famer) => (
           <Card key={famer.name} p={6} boxShadow="lg" borderRadius="md">
             <Flex direction="column" align="center">
