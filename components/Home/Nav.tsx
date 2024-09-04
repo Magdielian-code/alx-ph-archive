@@ -15,13 +15,13 @@ import {
   Box,
   Button,
   Flex,
-  Link,
   Spacer,
   Icon,
   Text,
 } from "@chakra-ui/react";
 
 import React from "react";
+import Link from "next/link";
 import { useScrollDirection } from "@/hooks/useScrollDirection";
 import { faProductHunt } from "@fortawesome/free-brands-svg-icons";
 import { ColorModeToggle } from "../Utils/ColorModeToggle";
@@ -29,7 +29,7 @@ import { ColorModeToggle } from "../Utils/ColorModeToggle";
 
 const navMenuLinks = [
   { name: "Home", href: "/", icon: faHouse },
-  { name: "Hall of Famer", href: "/talks", icon: faAward },
+  { name: "Hall of Famer", href: "/famer", icon: faAward },
   { name: "Blog", href: "/blog", icon: faPen },
   { name: "Products", href: "/products", icon: faProductHunt },
   { name: "News", href: "/consulting", icon: faNewspaper },
@@ -118,10 +118,6 @@ export const Nav: React.FC = () => {
         >
           {navMenuLinks.map((link) => (
             <Link
-              justifyContent="center"
-              alignItems={"center"}
-              display={"flex"}
-              flexDirection={"column"}
               key={link.href}
               href={link.href}
             >

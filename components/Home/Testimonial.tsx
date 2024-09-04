@@ -60,7 +60,7 @@ const Testimonial = () => {
   return (
     <Container maxW="container.xl" py={12}>
       <Box position="relative">
-        <Slider {...settings} innerRef={(slider: typeof Slider | null) => (sliderRef.current = slider)}>
+        <Slider {...settings}>
           {testimonialData.map((testimonial, index) => (
             <div key={index}>
               <Box px={2}>
@@ -77,7 +77,7 @@ const Testimonial = () => {
           top="50%"
           transform="translateY(-50%)"
           zIndex={2}
-          onClick={() => sliderRef.current?.slickPrev()}
+          onClick={() => sliderRef.current}
         />
         <IconButton
           aria-label="Next testimonial"
@@ -87,7 +87,7 @@ const Testimonial = () => {
           top="50%"
           transform="translateY(-50%)"
           zIndex={2}
-          onClick={() => sliderRef.current?.slickNext()}
+          onClick={() => sliderRef.current}
         />
       </Box>
     </Container>
