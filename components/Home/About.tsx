@@ -20,7 +20,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faSquareXTwitter } from '@fortawesome/free-brands-svg-icons';
 
-import Container from "@/components/Container";
+import Container from "../Container";
 
 const About = () => {
   const cardData = [

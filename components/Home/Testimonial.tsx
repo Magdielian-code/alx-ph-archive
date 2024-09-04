@@ -1,13 +1,29 @@
-'use client';
+"use client";
 
-import React, { useRef } from 'react';
-import { Box, Text, Avatar, VStack, Container, IconButton, useBreakpointValue } from '@chakra-ui/react';
-import { ChevronLeftIcon, ChevronRightIcon } from 'lucide-react';
-import dynamic from 'next/dynamic';
-import testimonialData from '@/components/Utils/TestimonialData';
+import React, { useRef } from "react";
+import {
+  Box,
+  Text,
+  Avatar,
+  VStack,
+  Container,
+  IconButton,
+  useBreakpointValue,
+  Card,
+  SimpleGrid,
+  CardHeader,
+  Flex,
+  CardBody,
+} from "@chakra-ui/react";
+import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
+import dynamic from "next/dynamic";
+import testimonialData from "@/components/Utils/TestimonialData";
 
 // Dynamic import of react-slick
-const Slider = dynamic(() => import('react-slick'), { ssr: false, loading: () => <p>Loading...</p> });
+const Slider = dynamic(() => import("react-slick"), {
+  ssr: false,
+  loading: () => <p>Loading...</p>,
+});
 
 interface TestimonialCardProps {
   name: string;
@@ -16,31 +32,43 @@ interface TestimonialCardProps {
   testimonial: string;
 }
 
-const TestimonialCard = ({ name, program, avatar, testimonial }: TestimonialCardProps) => (
-  <Box 
-    bg="white" 
-    boxShadow="lg" 
-    p={6} 
+const TestimonialCard = ({
+  name,
+  program,
+  avatar,
+  testimonial,
+}: TestimonialCardProps) => (
+  <Card
+    bg="white"
+    boxShadow="lg"
+    my={"40px"}
     rounded="lg"
-    maxW="sm"
+    maxW="lg"
     mx="auto"
-    height="100%"
+    height="auto"
+    textAlign={'justify'}
+    minHeight={'fit-content'}
   >
-    <VStack spacing={4} align="center" height="100%" justifyContent="space-between" textAlign="center">
-      <Avatar size="xl" src={avatar} name={name} />
-      <VStack spacing={2}>
-        <Text fontWeight="bold" fontSize="xl">{name}</Text>
-        <Text color="gray.500">{program}</Text>
-      </VStack>
-      <Box flex="1">
-        <Text fontSize="md" minHeight="80px">{testimonial}</Text>
-      </Box>
-    </VStack>
-  </Box>
+    <CardHeader height="100%" mx={'auto'}>
+      <Flex mt={6} flexDirection={'row'}>
+        <Avatar size="md" mr={2} src={avatar} name={name} />
+        <VStack align={'start'} ml={3} spacing={2}>
+          <Text as={'h2'} fontWeight="bold" textAlign={'left'} fontSize="md">
+            {name}
+          </Text>
+          <Text as={'h3'} color="gray.500" fontSize={'sm'} textAlign={'left'}>{program}</Text>
+        </VStack>
+      </Flex>
+    </CardHeader>
+    <CardBody flex="1">
+      <Text mx={4} minWidth={'70%'} fontSize="md" minHeight="100px">
+        {testimonial}
+      </Text>
+    </CardBody>
+  </Card>
 );
 
 const Testimonial = () => {
-  // Use typeof Slider to correctly type the ref
   const sliderRef = useRef<typeof Slider | null>(null);
   const slidesToShow = useBreakpointValue({ base: 1, md: 2, lg: 3 }) ?? 1;
 
@@ -51,7 +79,7 @@ const Testimonial = () => {
     slidesToShow: slidesToShow,
     slidesToScroll: 1,
     centerMode: true,
-    centerPadding: '60px',
+    centerPadding: "60px",
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,

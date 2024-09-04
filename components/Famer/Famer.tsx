@@ -41,7 +41,7 @@ const Famer: React.FC = () => {
           textAlign={"center"}
           fontWeight={"bold"}
         >
-          <Text as={"p"} mt={"20px"}>
+          <Text as={"p"} py={'30px'}>
             “We have so many inspirational, talented and skilful Individuals who
             make valuable impact to the growth of our community.”
           </Text>

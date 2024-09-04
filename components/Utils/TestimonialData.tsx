@@ -12,19 +12,19 @@ const testimonialData: TestimonialData[] = [
     name: 'John Doe',
     program: 'Computer Science',
     avatar: '/api/placeholder/100/100',
-    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable."
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable. jbdfusdv buivasdbviadsvuasdvabdug  judofifjf ohfiosdfsdhfa haoahgrtr7itu bgg  a9agagagugigv uugghv hg ghggagsigsvfv jvibvhbvisv  vibfvrvjwrv "
   },
   {
     name: 'Jane Smith',
     program: 'Data Science',
     avatar: '/api/placeholder/100/100',
-    testimonial: 'The hands-on projects really helped me understand complex concepts. Highly recommended!'
+    testimonial: 'The hands-on projects really helped me understand complex concepts. Highly recommended! jsdbvjdvsdjvsdvnsdovnvn jdvnfvnjodfv jvjdfuorg '
   },
   {
     name: 'Mike Johnson',
     program: 'Artificial Intelligence',
     avatar: '/api/placeholder/100/100',
-    testimonial: 'The instructors are top-notch. I feel well-prepared for my career in AI.'
+    testimonial: 'The instructors are top-notch. I feel well-prepared for my career in AI. jsduvufje ufdbod jvuugrjf jdjgbbgqgeq gjdfvfguugergurgujrgbuergurg  g g rjgbrgjbrgbdfg dfjbdf'
   },
   {
     name: 'Emily Brown',
