@@ -32,7 +32,7 @@ const navMenuLinks = [
   { name: "Hall of Famer", href: "/famer", icon: faAward },
   { name: "Blog", href: "/blog", icon: faPen },
   { name: "Products", href: "/products", icon: faProductHunt },
-  { name: "News", href: "/consulting", icon: faNewspaper },
+  { name: "News", href: "/news", icon: faNewspaper },
 ];
 
 export const Nav: React.FC = () => {

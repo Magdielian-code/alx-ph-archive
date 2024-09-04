@@ -355,7 +355,7 @@ const FamerData: FamerDataItem[] = [
   {
     image: 'assets/me3.jpg',
     name: 'Ozioma Agaecheta',
-    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    testimonial: "This program has been an incredible journey. The skills I've jvjibadghbi",
     socials: [
       {
         name: "LinkedIn",

@@ -41,7 +41,7 @@ const Famer: React.FC = () => {
           textAlign={"center"}
           fontWeight={"bold"}
         >
-          <Text as={"p"} py={'30px'}>
+          <Text as={"p"} py={"30px"}>
             “We have so many inspirational, talented and skilful Individuals who
             make valuable impact to the growth of our community.”
           </Text>
@@ -60,7 +60,14 @@ const Famer: React.FC = () => {
         minChildWidth={"300px"}
       >
         {FamerData.map((famer) => (
-          <Card key={famer.name} p={6} boxShadow="lg" borderRadius="md">
+          <Card
+            key={famer.name}
+            p={6}
+            minHeight={"fit-content"}
+            height="auto"
+            boxShadow="lg"
+            borderRadius="md"
+          >
             <Flex direction="column" align="center">
               <CardHeader>
                 <Image
