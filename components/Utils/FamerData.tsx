@@ -23,7 +23,7 @@ interface FamerDataItem {
 
 const FamerData: FamerDataItem[] = [
   {
-    image: '/path/to/image',
+    image: 'assets/me3.jpg',
     name: 'Ozioma Agaecheta',
     testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
     socials: [
@@ -45,7 +45,315 @@ const FamerData: FamerDataItem[] = [
     ]
   },
   {
-    image: '/path/to/image',
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
+    name: 'Ozioma Agaecheta',
+    testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
+    socials: [
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/ozioma-agaecheta-4ba85424a/",
+        icon: "faLinkedin"
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/Magdielian-code",
+        icon: "faGithub"
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/magdiel_amor",
+        icon: "faSquareXTwitter"
+      }
+    ]
+  },
+  {
+    image: 'assets/me3.jpg',
     name: 'Ozioma Agaecheta',
     testimonial: "This program has been an incredible journey. The skills I've gained are invaluable.",
     socials: [
