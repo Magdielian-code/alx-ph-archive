@@ -46,22 +46,24 @@ const TestimonialCard = ({
     maxW="lg"
     mx="auto"
     height="auto"
-    textAlign={'justify'}
-    minHeight={'fit-content'}
+    textAlign={"justify"}
+    minHeight={"fit-content"}
   >
-    <CardHeader height="100%" mx={'auto'}>
-      <Flex mt={6} flexDirection={'row'}>
+    <CardHeader height="100%" mx={"auto"}>
+      <Flex mt={6} flexDirection={"row"}>
         <Avatar size="md" mr={2} src={avatar} name={name} />
-        <VStack align={'start'} ml={3} spacing={2}>
-          <Text as={'h2'} fontWeight="bold" textAlign={'left'} fontSize="md">
+        <VStack align={"start"} ml={3} spacing={2}>
+          <Text as={"h2"} fontWeight="bold" textAlign={"left"} fontSize="md">
             {name}
           </Text>
-          <Text as={'h3'} color="gray.500" fontSize={'sm'} textAlign={'left'}>{program}</Text>
+          <Text as={"h3"} color="gray.500" fontSize={"sm"} textAlign={"left"}>
+            {program}
+          </Text>
         </VStack>
       </Flex>
     </CardHeader>
     <CardBody flex="1">
-      <Text mx={4} minWidth={'70%'} fontSize="md" minHeight="100px">
+      <Text mx={4} minWidth={"70%"} fontSize="md" minHeight="100px">
         {testimonial}
       </Text>
     </CardBody>
