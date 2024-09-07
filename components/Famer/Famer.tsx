@@ -34,18 +34,19 @@ const iconMap = {
 const Famer: React.FC = () => {
   return (
     <NavContainer>
-      <Box as="div" h={"150px"} bg={"blue.200"}>
+      <Box as="div" h={"150px"} bg={"blue.200"} alignContent={'center'}>
         <Text
           as={"div"}
           color={"white"}
           textAlign={"center"}
           fontWeight={"bold"}
+          py={'auto'}
         >
-          <Text as={"p"} py={"30px"}>
+          <Text as={"p"} fontSize={'xl'} >
             “We have so many inspirational, talented and skilful Individuals who
             make valuable impact to the growth of our community.”
           </Text>
-          <Text as={"p"}>
+          <Text as={"p"} fontSize={'xl'}>
             They have shown valuable and credible chaacter, a high sense of
             responsibility and devotion.
           </Text>
